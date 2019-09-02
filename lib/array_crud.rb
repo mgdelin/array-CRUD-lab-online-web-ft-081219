@@ -3,17 +3,17 @@ def create_an_empty_array
 end
 
 def create_an_array
-  array = [hermione, harry, ron, dobby]
+  array = ["hermione", "harry", "ron", "dobby"]
 end
 
 def add_element_to_end_of_array(array, element)
-  array = [hermione, harry, ron, dobby]
-  array << krookshanks
+  array = ["hermione", "harry", "ron", "dobby"]
+  array << "krookshanks"
 end
 
 def add_element_to_start_of_array(array, element)
- array = [hermione, harry, ron, dobby]
- array.unshift dumbledor
+ array = ["hermione", "harry", "ron", "dobby"]
+ array.unshift "dumbledor"
 end
 
 def remove_element_from_end_of_array(array)
